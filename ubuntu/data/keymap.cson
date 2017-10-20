@@ -1,0 +1,6 @@
+'body':
+  'ctrl-q': 'unset!'
+  'ctrl-q ctrl-left': 'window:focus-pane-on-left'
+  'ctrl-q ctrl-right': 'window:focus-pane-on-right'
+  'ctrl-q ctrl-up': 'window:focus-pane-on-up'
+  'ctrl-q ctrl-down': 'window:focus-pane-on-down'

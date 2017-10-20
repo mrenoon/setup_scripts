@@ -7,6 +7,7 @@ apm install minimap linter-eslint language-babel
 apm install linter linter-ui-default intentions busy-signal linter-jsonlint atom-beautify file-icons language-ethereum
 apm install tree-view-git-status tree-view-git-modified tree-view-git-branch
 apm install git-plus git-diff-details git-time-machine
+cp data/keymap.cson ~/.atom/
 
 # install riot
 echo "echo 'deb https://riot.im/packages/debian/ stretch main' >> /etc/apt/sources.list" | sudo bash
