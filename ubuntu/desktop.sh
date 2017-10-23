@@ -5,8 +5,7 @@ sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update; sudo apt install -y atom
 apm install minimap linter-eslint language-babel
 apm install linter linter-ui-default intentions busy-signal linter-jsonlint atom-beautify file-icons language-ethereum
-apm install tree-view-git-status tree-view-git-modified tree-view-git-branch
-apm install git-plus git-diff-details git-time-machine
+apm install tree-view-git-status
 cp data/keymap.cson ~/.atom/
 
 # install riot
@@ -20,3 +19,6 @@ sudo apt-get install -y riot-web
 sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
 sudo apt-get update
 sudo apt-get -y install pinta
+
+# install synapse
+sudo apt install synapse
