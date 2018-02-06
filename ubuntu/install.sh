@@ -1,5 +1,6 @@
 # common
 sudo apt-get install -y git wget curl
+sudo apt-get install rpm
 
 # nvm and nodejs
 sudo apt-get update

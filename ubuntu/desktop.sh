@@ -5,7 +5,7 @@ sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update; sudo apt install -y atom
 apm install minimap linter-eslint language-babel
 apm install linter linter-ui-default intentions busy-signal linter-jsonlint atom-beautify file-icons language-ethereum
-apm install tree-view-git-status
+apm install tree-view-git-status git-blame move-panes maximize-panes
 cp data/keymap.cson ~/.atom/
 
 # install riot
