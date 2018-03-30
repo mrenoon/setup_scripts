@@ -1,5 +1,9 @@
 # common
 sudo apt-get install -y git wget curl
+sudo apt-get install -y tree
+
+# python
+sudo apt-get install python3-pip
 
 # nvm and nodejs
 sudo apt-get update
